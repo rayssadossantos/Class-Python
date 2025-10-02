@@ -1,0 +1,19 @@
+("admin":{"senha": "123456", "tipoUsuario": 1
+  "funcionario": ("senha": "1234567", "tipoUsuario:2")
+    "cliente": ("senha": "1234567", "tipoUsuario: 3")
+}
+
+ tentativa = 3
+ acesso_liberado = false
+ usuario_logado = ""
+ tipo_usuario = 0
+
+ while tentativas > 0:
+   usuario = input("digite o usuario: ").lower()
+   senha = input("digite sua senha: ").lower()
+
+ if usuario in Usuarios and Usuaios [usuarios]["senha"] == senha:
+    print("login efetuado com sucesso!")
+    acesso_liberado = true
+    usuario_logado = usuario
+    tipo_usuario = Usuario[usuario]["tipoUsuario"]       

@@ -1,0 +1,39 @@
+class carros:
+    def __init__(self, marca, modelo, ano, cor):
+        self.marca=marca
+        self.modelo=modelo
+        self.ano=ano
+        self.cor=cor
+carro1 = carros("Honda", "Civic", 2008, "Preto")
+print(f"Marca:  {carro1.marca}")
+print(f"Modelo:  {carro1.modelo}")
+print(f"Ano:  {carro1.ano}")
+print(f"Cor:  {carro1.cor}")
+
+print()
+carro2 = carros("chevrolet", "impala", 1967, "azul")
+print(f"Marca:  {carro1.marca}")
+print(f"Modelo:  {carro1.modelo}")
+print(f"Ano:  {carro1.ano}")
+print(f"Cor:  {carro1.cor}")
+print()
+
+carro3 = carros("BMW", "e36", 1990, "Preto")
+print(f"Marca:  {carro1.marca}")
+print(f"Modelo:  {carro1.modelo}")
+print(f"Ano:  {carro1.ano}")
+print(f"Cor:  {carro1.cor}")
+print()
+
+carro4 = carros("dodge", "charger", 1969, "vermelho")
+print(f"Marca:  {carro1.marca}")
+print(f"Modelo:  {carro1.modelo}")
+print(f"Ano:  {carro1.ano}")
+print(f"Cor:  {carro1.cor}")
+
+print()
+carro5 = carros("nissan", "GTR R34", 2000, "rosa")
+print(f"Marca:  {carro1.marca}")
+print(f"Modelo:  {carro1.modelo}")
+print(f"Ano:  {carro1.ano}")
+print(f"Cor:  {carro1.cor}")
